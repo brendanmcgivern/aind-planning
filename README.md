@@ -82,6 +82,7 @@ Below are the metrics for running  uninformed planning searches and A * planning
 ## Uninformed planning searches
 
 **Air Cargo Problem 1**
+
 | Search | Expansions | Goal Tests | New Nodes | Plan length | Time (s) | Optimality |
 |--------|------------|------------|-----------|-------------|----------|------------|
 | BFS    | 43         | 56         | 180       | 6           | 0.033    | Yes        |
@@ -89,6 +90,7 @@ Below are the metrics for running  uninformed planning searches and A * planning
 | UCS    | 55         | 57         | 224       | 6           | 0.036    | Yes        |
 
 **Air Cargo Problem 2**
+
 | Search | Expansions | Goal Tests | New Nodes | Plan length | Time (s) | Optimality |
 |--------|------------|------------|-----------|-------------|----------|------------|
 | BFS    | 3343       | 4609       | 30509     | 9           | 7.859    | Yes        |
@@ -96,6 +98,7 @@ Below are the metrics for running  uninformed planning searches and A * planning
 | UCS    | 4852       | 4854       | 44030     | 9           | 11.488   | Yes        |
 
 **Air Cargo Problem 3**
+
 | Search | Expansions | Goal Tests | New Nodes | Plan length | Time (s) | Optimality |
 |--------|------------|------------|-----------|-------------|----------|------------|
 | BFS    | 14663      | 18098      | 129631    | 12          | 40.556   | Yes        |
@@ -110,18 +113,21 @@ If finding an optimal path length is important, which I image it would be in mos
 The tables below illustrate running A * searches with both the h_ignore_preconditions and h_pg_levelsum heuristicsforproblems air_cargo_p1, air_cargo_p2, and air_cargo_p3.
 
 **Air Cargo Problem 1**
+
 | Search     | Expansions | Goal Tests | New Nodes | Plan length | Time (s) | Optimality |
 |------------|------------|------------|-----------|-------------|----------|------------|
 | HIP        | 41         | 43         | 170       | 6           | 0.035    | Yes        |
 | h_levelsum | 39         | 41         | 158       | 6           | 0.791    | Yes        |
 
 **Air Cargo Problem 2**
+
 | Search     | Expansions | Goal Tests | New Nodes | Plan length | Time (s) | Optimality |
 |------------|------------|------------|-----------|-------------|----------|------------|
 | HIP        | 1450       | 1452       | 13303     | 9           | 3.574    | Yes        |
 | h_levelsum | 1129       | 1131       | 10232     | 9           | 282.455  | Yes        |
 
 **Air Cargo Problem 3**
+
 | Search     | Expansions | Goal Tests | New Nodes | Plan length | Time (s) | Optimality |
 |------------|------------|------------|-----------|-------------|----------|------------|
 | HIP        | 5040       | 5042       | 44944     | 12          | 14.862   | Yes        |
